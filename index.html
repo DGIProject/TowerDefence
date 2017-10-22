@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TowerDefence</title>
+    <script type="text/javascript" src="js/class/Game.js"></script>
+    <script type="text/javascript" src="js/class/Map.js"></script>
+    <script type="text/javascript" src="js/class/Ballons.js"></script>
+    <script type="text/javascript" src="js/class/Tower.js"></script>
+    <script type="text/javascript" src="js/class/Round.js"></script>
+    <script type="text/javascript" src="js/class/CurvePath.js"></script>
+    <script type="text/javascript" src="js/class/Throwable.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function()
+        {
+            var canvas = document.getElementById("canvas"), elemLeft = canvas.offsetLeft,  elemTop = canvas.offsetTop;
+            var ctx = canvas.getContext("2d");
+            game = new Game('Test', 1, 'test', ctx)
+
+            canvas.addEventListener("click", function(event){
+                var x = event.pageX - elemLeft, y = event.pageY - elemTop;
+                game.onClick(event, x, y );
+            }, false);
+
+
+        }
+    </script>
+</head>
+<body>
+<canvas id="canvas" height="500" width="500" style="border: 1px solid black"></canvas>
+</body>
+</html>

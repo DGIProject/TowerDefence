@@ -1,0 +1,14 @@
+{
+  "gun1" : {
+    "defaultLvl" : 0,
+    "levels" : [
+      {
+        "sprite" : "lvl1.png",
+        "power" : 2,
+        "throw" : "fleche1.png",
+        "lvlPrice" : 100,
+        "radius" : 30
+      }
+    ]
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="69a26900-3162-4bf8-9e2b-d55ecf2360b4" name="SHPV" url="http://151.80.175.218">
+        <fileTransfer host="151.80.175.218" port="21" rootFolder="/www/towerDefence" password="dfdcdfc3dfc6dfc6dfcfdfc4dfcbdfcd" username="guillaume">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

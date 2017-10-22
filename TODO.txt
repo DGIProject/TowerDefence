@@ -1,0 +1,9 @@
+#1 : Replace intervals by on demand position. intervals cause the main loop to be desynchronised with interval... that cause problem on calc
+#2 : Load tower list in memory when loading map.
+#3 : Create methods to get tower properties in order to create a dynamic tower.
+#4 : Custom predefined path for tower throwable ( ex : curve, strait line, spirale, ... )
+#5 : Display frameRate
+#6 : Replace setInterval by setTimiout int order to be sure that the frame has corectley been displayed. ( interval : even if not finised it restart )
+#7 : create graphics for towers/ballons/missiles/map...
+#8 : Ability to pause/play the round
+#9 : Display available lives and create a descent interface
